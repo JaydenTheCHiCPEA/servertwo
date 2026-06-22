@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "D.L. WRIGHT POS",
+    "slug": "dl-wright-pos",
+    "version": "1.0.0",
+     "monorepo": {
+      "workspaceRoot": "../.."
+    },
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "dl-wright-pos",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "pos",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.jayden_hindss.dlwrightpos"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://dl-wright-pos.vercel.app"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8234295-c36e-4a75-ac2d-3eed2a949a3f"
+      }
+    }
+  }
+}
