@@ -1,6 +1,7 @@
 {
   "name": "@workspace/dl-wright-pos",
   "version": "0.0.0",
+  "packageManager": "pnpm@11.4.0",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
