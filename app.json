@@ -3,9 +3,6 @@
     "name": "D.L. WRIGHT POS",
     "slug": "dl-wright-pos",
     "version": "1.0.0",
-     "monorepo": {
-      "workspaceRoot": "../.."
-    },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "dl-wright-pos",
@@ -16,7 +13,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "pos",
@@ -25,7 +21,7 @@
       }
     },
     "android": {
-      "package": "com.jayden_hindss.dlwrightpos"
+      "package": "com.newguyy.dlwrightpos"
     },
     "web": {
       "favicon": "./assets/images/icon.png"
@@ -46,7 +42,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "c8234295-c36e-4a75-ac2d-3eed2a949a3f"
+        "projectId": "014aa8e0-b67e-4197-b828-9afe5a7993a9"
       }
     }
   }
